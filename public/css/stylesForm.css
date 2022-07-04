@@ -1,0 +1,126 @@
+.CajaRegistro{
+    background-color:white;
+    width: 80%;
+    height: 80%;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:NONE;
+    font-size: small  ;
+    border-radius: 90%;
+}
+.h1_Registro{
+    text-align: center;
+    color:#03264C;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight:bolder;
+    padding-top: none;
+    margin: none ;
+}
+
+header{
+    background-color:#EAC926;
+    width: 100vw;
+    height: 20vw ;
+}
+
+.logo{
+    width: 25%;
+}
+
+form {
+    background-color: #ebebeb;
+    padding: 5vw;
+    margin-left: 20%;
+    padding-right: 85px;
+}
+
+div{
+    padding: 4px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.interior{
+    
+    font-style: none;
+    
+}
+
+li{
+    font-style: none;
+}
+
+label{
+    font-weight: bold;
+}
+
+footer{
+    
+    text-align: center;
+    ;
+    
+}
+
+
+.footer-icono {
+    
+    color: #1259c3;
+    font-size: 25px;   
+    text-align: center;
+    size: 5mm;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+footer section{
+    display: block;
+    text-align: center;
+    flex-wrap: wrap; 
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;       
+}
+
+footer section{
+    width: 33.3%;       
+}
+
+
+button{
+    background-color: #1259c3;
+    width: 80%;
+    color: white;
+    padding: 2%;
+    margin-top: 5px;
+    border: none;
+
+
+}
+
+button:hover{
+    background-color:#EAC926;
+    color: #03264C;
+    border: none;
+}
+
+form:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}
+
+.terminos{
+    text-decoration: none;
+    color:#5a5454f6;
+    text-align: center;
+}

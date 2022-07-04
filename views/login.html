@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/normalize.css" rel="stylesheet"> 
+    <link href="/css/stylesForm.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet"   >
+    <script src="https://kit.fontawesome.com/6c39483f3c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section class="cajaPrincipal">
+            <header>
+            <div class="caja1">
+                <div class="logo">
+                    <img src="/images/logo-mercado-liebre.svg" ,alt="logo-mercado-liebre"> 
+                </div>
+            </div>  
+            </header>
+        </section>
+        <h1 class="h1_Registro">Inicio de Seccion</h1>
+
+        <div class="CajaRegistro">
+        <form action="/views/home.html" method="post">
+            <div>
+                <label>Nombre de usuari@: </label>
+                <input 
+                type="text"
+                name="username"
+                placeholder="Nombre de usuari@" 
+                pattern="[a-z\d\.]{2,15}"
+                title="El Nombre de usuario no puede contener mayusculas ni caracteres especiales
+                / El Nombre de usuario recibe minio 6 hasta 15 caracteres"
+                id="username" 
+                >
+            </div>
+            <div>
+                <label>Contraseña: </label>
+                <input type="password" name="" id="password" placeholder="Contraseña">
+                <span class="feedback"></span>
+            </div>
+            <div>
+                <button type="submit" onclick="alert('Se envio el formulario')" >Inicar</button>       
+
+        </form>
+    </div>
+
+    </main>
+
+
+    <footer>
+        <section>
+            <div class="footer-icono"> 
+                <i class="fa-solid fa-credit-card"></i>
+            </div>
+            <b>Pagá con tarjeta o en efectivo</b>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+        </section>
+
+        <section>
+            <div class="footer-icono"><i class="fa-solid fa-gift"></i>
+            <br></div>
+            <b class="centro">Envío gratis desde $ 2.500</b>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p>
+        </section>
+
+        <section>
+        <div class="footer-icono"> 
+            <i class="fa-solid fa-user-shield"></i>
+        </div>
+            <b>Seguridad, de principio a fin</b>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                porque estás siempre protegid@.</p>
+        </section>
+
+        <section>
+            <b><strong> © 1999-2020</strong> MercadoLiebre S.R.L.</b>
+           
+        </section>
+        
+    </footer>
+<script src="app.js"></script>
+</body>
+
+
+</html>
