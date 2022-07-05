@@ -3,7 +3,9 @@ const { format } = require("path");
 const path =require("path")
 const app = express()
 
-app.listen(3030,()=> console.log("el servidor esta vivo en el puerto 3030"));
+/* app.listen(3030,()=> console.log("el servidor esta vivo en el puerto 3030")); */
+
+app.listen(process.env.PORT ||  3030,()=> console.log("el servidor esta vivo en el puerto 3030"));
 
 const publicFolder= path.resolve(__dirname,"./public")
 app.use(express.static(publicFolder))
